@@ -1,0 +1,112 @@
+* {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.site-header {
+    height: 50px;
+    border-bottom: 1px solid #b8b8b8;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.home-btn i {
+    font-size: 30px;
+    color: #000;
+}
+
+/* .site-header nav a {
+    margin: 0 12px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+} */
+
+.hero {
+    height: calc(100vh - 150px);
+}
+
+.hero img {
+    object-position: center;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.sec-2 {
+    border-bottom: 1px solid #b8b8b8;
+}
+
+.view-more {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px;
+}
+
+.headline {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.6rem, 5vw, 4rem);
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.subhead {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #444;
+    max-width: 720px;
+}
+
+/* STORY CARD */
+.story-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.story-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+/* FADE-IN */
+.fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 60vh;
+    }
+
+    .story-card img {
+        height: 220px;
+    }
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    .hero {
+        height: 60vh;
+    }
+}
+
+/* Disable sticky positioning on screens smaller than 992px */
+@media (max-width: 991.98px) {
+    .position-sticky {
+        position: static !important;
+    }
+}

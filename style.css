@@ -5,23 +5,13 @@
 .site-header {
     height: 50px;
     border-bottom: 1px solid #b8b8b8;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+
 }
 
 .home-btn i {
     font-size: 30px;
     color: #000;
 }
-
-/* .site-header nav a {
-    margin: 0 12px;
-    font-weight: 600;
-    font-size: 15px;
-    color: #000;
-    text-decoration: none;
-} */
 
 .hero {
     height: calc(100vh - 150px);
@@ -39,6 +29,18 @@
     border-bottom: 1px solid #b8b8b8;
 }
 
+.scroll-container {
+    max-height: 600px;
+    overflow-y: auto;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
 .view-more {
     font-size: 18px;
     color: #000;
@@ -47,32 +49,12 @@
     padding-bottom: 2px;
 }
 
-.headline {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(2.6rem, 5vw, 4rem);
-    font-weight: 700;
-    line-height: 1.1;
-}
 
 .subhead {
     font-size: 1.1rem;
     line-height: 1.7;
     color: #444;
     max-width: 720px;
-}
-
-/* STORY CARD */
-.story-card img {
-    width: 100%;
-    height: 280px;
-    object-fit: cover;
-}
-
-.story-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.25rem;
-    font-weight: 600;
-    line-height: 1.3;
 }
 
 /* FADE-IN */

@@ -1,5 +1,5 @@
 * {
-    font-family: "Josefin Sans", sans-serif;
+font-family: "Bodoni Moda", serif;
 }
 
 .site-header {
@@ -30,7 +30,7 @@
 }
 
 .scroll-container {
-    max-height: 600px;
+    max-height: 700px;
     overflow-y: auto;
 
     scrollbar-width: none;

@@ -1,9 +1,9 @@
 :root {
-    --font-heading: "serif";
-    --font-body: "sans-serif";
+    --font-heading: serif;
+    --font-body: sans-serif;
 }
 
-body {
+p {
     font-family: var(--font-body);
 }
 
